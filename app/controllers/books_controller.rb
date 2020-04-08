@@ -1,13 +1,17 @@
 class BooksController < ApplicationController
-  def index
+  def home #トップページ
+
   end
 
-  def show
+  def index #投稿一覧表示
   end
 
-  def new
+  def show #詳細ページ
   end
 
-  def edit
+  def new #新規投稿ページ（index内に記述）
+  end
+
+  def edit #記事編集ページ
   end
 end
