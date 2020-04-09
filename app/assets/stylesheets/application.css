@@ -14,12 +14,59 @@
  *= require_self
  */
 
-header{
-	background-color: #fff;
-	color: #333;
-	font-family: verdana, arial, helvetica, sans-serif;
-	line-height: 18px;
-	margin: 33px
+
+ body{
+ 	background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+ }
+
+.headertext{
+    font-size: 26px;
+}
+.text1 {
+    margin: 33px;
+}
+.text2{
+	margin: 33px 0;
 }
 
 
+
+th{
+	padding-bottom: 5px;
+}
+td {
+	padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.alertalert-warning {
+    width: 450px;
+    border: 2px solid red;
+    padding: 7px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+
+h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+}
+
+h4 {
+    margin-bottom: 0 ;
+    font-weight: normal;
+}
